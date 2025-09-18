@@ -1,0 +1,69 @@
+
+
+.button {
+  width: 55%;
+  padding: 0.3rem 1rem; 
+  border-radius: 1.1rem;
+  font-weight: 900; 
+  font-size: 1.325rem; 
+  transition: transform 0.2s;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+.button:hover {
+  transform: scale(1.02);
+  background-color: #daf4ff;
+  transition-delay: 100ms;
+  
+}
+
+/* Variante primaria */
+.primary {
+  background-color: #ffffff;
+  color: #028BBF;
+  border-color: #028BBF;
+}
+
+/* Variante secundaria */
+.secondary {
+  background-color: white;
+  color: #028BBF;
+  border-color: #028BBF;
+}
+
+.clear {
+  background-color: white;
+  color: #575756;
+  border-color: #575756;
+  width: 50%;
+  gap: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(87,87,86,0.2 );
+}
+
+.clear:hover{
+  transform: scale(1.02);
+  background-color: #ff9d9d;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 6px 12px rgba(87,87,86,0.3);
+}
+
+.adicionar{
+  font-family: 'Inter',sans-serif;
+  display: flex;
+  gap: 7px;
+  width: 100%;
+  background-color: #575756;
+  color: #ffffff;
+  border-color: #575756;
+}
+
+.adicionar:hover{
+  transform: scale(1.03);
+  transition-delay: 100ms;
+}
+
+
